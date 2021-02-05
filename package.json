@@ -1,0 +1,25 @@
+{
+  "name": "mustachio-back",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuel-kaleidos/mustachio-back.git"
+  },
+  "author": "Samuel Gómez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/samuel-kaleidos/mustachio-back/issues"
+  },
+  "homepage": "https://github.com/samuel-kaleidos/mustachio-back#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.15",
+    "mongoose-unique-validator": "^2.0.3"
+  }
+}
