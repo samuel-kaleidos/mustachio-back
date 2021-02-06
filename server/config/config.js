@@ -6,7 +6,7 @@ let urlDB = "";
 if (process.env.NODE_ENV === 'dev') {
     urlDB = "mongodb://localhost:27017/mediumNodeLogin";
 } else {
-    urlDB = "here write the mongo connection with mongo atlas and      other type of connection mode"
+    urlDB = "here write the mongo connection with mongo atlas and other type of connection mode"
 };
 process.env.URLDB = urlDB;
 

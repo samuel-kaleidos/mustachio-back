@@ -2,6 +2,7 @@ const express = require('express');
 const bcrypt = require('bcrypt');
 const Usuario = require('./../models/usuario');
 const app = express();
+
 app.post('/register', function (req, res) {
   const body = req.body;
   const { nombre, email, password, role } = body;
